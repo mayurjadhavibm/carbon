@@ -2,10 +2,10 @@ name: "CodeQL"
 
 on:
   push:
-    branches: [ master, 0.9.x, 1.0.x, 1.1.x ]
+    branches: [ master, 0.9.x, 1.0.x, 1.1.x, s390x-selfhosted]
   pull_request:
     # The branches below must be a subset of the branches above
-    branches: [ master ]
+    branches: [ master, s390x-selfhosted ]
   schedule:
     - cron: '37 7 * * 6'
 
