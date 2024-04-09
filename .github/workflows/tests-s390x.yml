@@ -39,7 +39,8 @@ jobs:
       - name: Set up Python ${{ matrix.python-version }}
         uses: actions/setup-python@v4
         with:
-          arch: s390x
+          #arch: s390x
+          run: echo "$arch"
           python-version: ${{ matrix.python-version }}
       - name: Install dependencies
         run: |
