@@ -1,5 +1,6 @@
 name: "Run tests for s390x architecture"
 #Blocker1 apt install libffi-dev
+#Check container connection as VM is not accessible today
 
 on:
   push:
